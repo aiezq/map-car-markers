@@ -1,12 +1,6 @@
 import React from 'react';
 import { useMap } from 'react-leaflet';
-
-interface Object {
-  id: number;
-  latitude: number;
-  longitude: number;
-  name: string;
-}
+import { Object } from '../../../shared/types/commonTypes';
 
 const MapZoomTo: React.FC<{ selectedObject: Object }> = ({ selectedObject }) => {
   const map = useMap();
