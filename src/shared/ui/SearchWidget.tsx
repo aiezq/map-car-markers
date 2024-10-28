@@ -1,12 +1,7 @@
 import React from 'react';
 import styles from './SearchWidget.module.css';
+import { Object } from '../types/commonTypes'
 
-interface Object {
-  id: number;
-  latitude: number;
-  longitude: number;
-  name: string;
-}
 
 interface SearchWidgetProps {
   searchTerm: string;

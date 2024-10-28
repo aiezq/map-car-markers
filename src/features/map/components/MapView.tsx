@@ -2,7 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { LatLngExpression } from 'leaflet';
-import { objects, Object } from '../model/objects';
+import { Object } from '../../../shared/types/commonTypes';
+import { objects } from '../model/objects';
 import MapZoomTo from './MapZoomTo';
 import SearchWidget from '../../../shared/ui/SearchWidget';
 
