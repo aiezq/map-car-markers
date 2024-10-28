@@ -1,6 +1,5 @@
 import React from 'react';
 import MapView from '../features/map/components/MapView';
-import '../shared/styles/index.css';
 
 const App: React.FC = () => {
   return (
